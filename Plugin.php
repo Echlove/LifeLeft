@@ -64,7 +64,7 @@ class LifeLeft_Plugin implements Typecho_Plugin_Interface
     public static function footer()
     {
         $prefix = Typecho_Common::url('LifeLeft/assets', Helper::options()->pluginUrl);
-        echo $prefix;
+        //echo $prefix;
         echo '<script src="' . $prefix . '/echo.min.js"></script>';
         echo '<link rel="stylesheet" href="' . $prefix . '/echo.min.css">';
         //require_once 'include.php';
