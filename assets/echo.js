@@ -169,7 +169,6 @@ function lifeleft_2() {
         }
         let htmlStr = '';
         htmlStr += `
-        <div class="widget widget_categories wrapper-md clear timelife">
         <h5 class="widget-title">
             <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
                 <path
@@ -197,9 +196,8 @@ function lifeleft_2() {
             </div>`;
         });
         htmlStr += `</div>`;
-        htmlStr += `</div>`;
         if($('#blog_info').length > 0) console.log("found");
-        if($('#blog_info')) $("<div class=\"widget widget_categories wrapper-md clear timelife\"></div>").insertBefore('#blog_info');
-        $('.timelife').html(htmlStr);
+        if($('#blog_info')) $("<section id=\"lifeleft\" class=\"widget widget_categories wrapper-md clear lifeleft\"></section>").insertBefore('#blog_info');
+        $('#lifeleft').html(htmlStr);
     }
 }
