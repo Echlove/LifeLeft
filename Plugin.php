@@ -65,6 +65,7 @@ class LifeLeft_Plugin implements Typecho_Plugin_Interface
     {
         $prefix = Typecho_Common::url('LifeLeft/assets', Helper::options()->pluginUrl);
         //echo $prefix;
+        if(Helper::options()->theme == "handsome") echo '<div id="Theme_Handsome" display:none></div>';
         echo '<script src="' . $prefix . '/echo.min.js"></script>';
         echo '<link rel="stylesheet" href="' . $prefix . '/echo.min.css">';
         //require_once 'include.php';
