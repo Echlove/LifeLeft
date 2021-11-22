@@ -1,5 +1,5 @@
 # TimeLeft - 人生倒计时
-*a plugin for Typecho*
+*a plugin for Typecho inspired by [Joe](https://github.com/HaoOuBa/Joe)*
 
 ## 使用方法
 
