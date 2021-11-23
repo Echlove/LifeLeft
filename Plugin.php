@@ -6,7 +6,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * @package LifeLeft 
  * @author Echo
  * @version 1.0.0
- * @link https://github.com/HaoOuBa/Joe
+ * @link https://github.com/Uncle-Antonio/LifeLeft
  */
 class LifeLeft_Plugin implements Typecho_Plugin_Interface
 {
