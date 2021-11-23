@@ -33,7 +33,7 @@ function lifeleft() {
                 percent: '0%'
             }
         ]; {
-            let nowDate = new Date();
+            let nowDate = new Date(+new Date()+8*3600*1000);
             let todayStartDate = new Date(nowDate.toISOString().slice(0, 10));
             let todayPassHours = (nowDate.getTime() - todayStartDate.getTime()) / 1000 / 60 / 60;
             let todayPassHoursPercent = (todayPassHours / 24) * 100;
