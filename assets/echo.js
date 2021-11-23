@@ -1,16 +1,20 @@
 document.addEventListener('DOMContentLoaded', function (event) {
     //console.log("001");
+    lifeleft();
+    //console.log("002");
+});
+
+function lifeleft() {
     if($('#Theme_Handsome').length >0 ) {
         //console.log("found_flag");
         lifeleft_2();
     }
     else {
-        lifeleft();
+        lifeleft_1();
     }
-    //console.log("002");
-});
+}
 
-function lifeleft() {
+function lifeleft_1() {
     if ($('.clear.timelife').length) {
         let timelife = [{
                 title: '今日已经过去',
