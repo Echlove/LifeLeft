@@ -78,7 +78,7 @@ function lifeleft() {
             </svg>
         人生倒计时
         </h5>`;
-        htmlStr += `<div class="list-group">`;
+        htmlStr += `<div class="list-group no-bg no-borders ">`;
         timelife.forEach((item, index) => {
             htmlStr += `
             <div class="item list-group-item">
