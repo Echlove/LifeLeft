@@ -9,8 +9,7 @@
 ```php
 <!-- 人生倒计时代码 -->
 <?php if (array_key_exists('LifeLeft', Typecho_Plugin::export()['activated'])) : ?>
-  <div class="widget widget_categories wrapper-md clear timelife"> //这里随便改，保留<timelife>关键字就行
-  <div class="echo-contain"></div>
+  <section id="lifeleft" class="widget widget_categories wrapper-md clear"> //这里随便改，保留<timelife>关键字就行
   </div>
 <?php endif; ?>
 ```
